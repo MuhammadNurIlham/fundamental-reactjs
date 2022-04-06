@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import EmbedExpression from './embed-expression';
 import './index.css';
+import Event from "./event"
 
 ReactDOM.render(
   <React.StrictMode>
-    <EmbedExpression />
+    <Event />
   </React.StrictMode>,
   document.getElementById('root')
 );
