@@ -13,7 +13,7 @@ function Props() {
     };
 
     function handleClick() {
-        alert('Hello Mr Bean');
+        alert('Hello Mr.Bean');
     };
 
     return (
